@@ -31,7 +31,7 @@ public class EmployeeController {
 
 	@PutMapping("/updateEmployee") // http://localhost:7687/employee/updateEmployee
 	public String updateEmployee(@RequestBody Employee emp) {
-		System.out.println("Pull Request");
+		System.out.println("PR");
 		return service.updateEmployee(emp);
 	}
 
